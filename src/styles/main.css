@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-width: 100vw;
+}
+#game-image{
+    cursor: url('/public/imgs/circle.png'), auto;
+}

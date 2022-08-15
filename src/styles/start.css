@@ -1,0 +1,91 @@
+*{
+    font-family: 'Caveat Brush', cursive;
+}
+.start-menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-size: 4rem;
+    margin-bottom: 5%;
+}
+.start-container{
+    width: 80vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info{
+    font-size: 3rem;
+    text-align: center;
+}
+.photo-container{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+.photo{
+    height: 100%;
+    width: 30%;
+}
+#regis-photo{
+    background-image: url('/public/imgs/regis.png');
+    background-size: cover;
+    background-position: 50% 30%;
+}
+#iorweth-photo{
+    background-image: url('/public/imgs/iorweth.png');
+    background-size: cover;
+    background-position: 50% 5%;
+}
+#shani-photo{
+    background-image: url('/public/imgs/shani.png');
+    background-size: cover;
+    background-position: 50% 30%;
+}
+.names-container{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+.name{
+    height: 100%;
+    width: 30%;
+    font-size: 2rem;
+    text-align: center;
+}
+.start-btn{
+    height: 10%;
+    width: 15%;
+    font-size: 1.5rem;
+    transition: .2s;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.start-btn:hover{
+    transform: scale(1.1);
+}
+.start-btn:active{
+    transform: translateY(2px);
+}
+a{
+    color: black;
+}
+a:link{
+    text-decoration: none;
+}
